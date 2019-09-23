@@ -1,0 +1,43 @@
+{
+  "name": "@collateral/react-models",
+  "version": "0.0.1",
+  "description": "React entity global state management via hooks",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "main": "dist/index.js",
+  "keywords": [
+    "collateral",
+    "react",
+    "state",
+    "models",
+    "global"
+  ],
+  "homepage": "https://github.com/mauleb/react-models",
+  "bugs": {
+    "url": "https://github.com/mauleb/react-models/issues"
+  },
+  "license": "MIT",
+  "authors": [
+    "Brian Maule (https://github.com/mauleb)"
+  ],
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mauleb/react-models.git"
+  },
+  "devDependencies": {
+    "@babel/core": "7.6.0",
+    "@babel/plugin-external-helpers": "7.2.0",
+    "@babel/preset-react": "7.0.0",
+    "rollup": "1.21.4",
+    "rollup-plugin-babel": "4.3.3",
+    "rollup-plugin-commonjs": "10.1.0",
+    "rollup-plugin-node-resolve": "5.2.0",
+    "rollup-plugin-sourcemaps": "0.4.2"
+  }
+}
